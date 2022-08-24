@@ -1,3 +1,5 @@
+
+
 .row{
     display: flex;
     flex-direction: row;
@@ -6,4 +8,8 @@
 .column{
     display: flex;
     flex-direction: column;
+}
+
+.input{
+    width: auto;
 }
