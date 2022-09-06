@@ -1,0 +1,29 @@
+.contenedor{
+    display: grid;
+    gap: 10px;
+    grid-template :     "header" 100px
+                        "nav"   50px
+                        "main"  auto
+                        "aside"  150px
+                        "footer" 100px ;
+}
+
+.header{
+    grid-area: header;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.main{
+    grid-area: main;
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.footer{
+    grid-area: footer;
+}
